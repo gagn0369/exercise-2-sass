@@ -45,8 +45,13 @@ h2{
 	border: white solid 8px;
 	padding: 0.3em;
 	margin: 0.2em;
+  
+  -webkit-animation: icon-fade 1s ease-out;
+  -moz-animation: icon-fade 1s ease-out;
+  -o-animation: icon-fade 1s ease-out;
+  animation: icon-fade 1s ease-out;
 
-	@include icon-fade
+  transition: all linear;
 }
 
 .container .icon-link:hover{
