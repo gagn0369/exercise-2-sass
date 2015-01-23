@@ -59,7 +59,137 @@ h2{
 
 .container .icon-link:active{
 	top:0.1em;
+	transition: all linear;
+}
+
+.word-1{
+
+	-webkit-animation: word-fade-1 1.5s ease-out;
+	-moz-animation: word-fade-1 1.5s ease-out;
+	-o-animation: word-fade-1 1.5s ease-out;
+	animation: word-fade-1 1.5s ease-out;
+}	
+
+.word-2{
+	
+	-webkit-animation: word-fade-1 1.75s ease-out;
+	-moz-animation: word-fade-1 1.75s ease-out;
+	-o-animation: word-fade-1 1.75s ease-out;
+	animation: word-fade-1 1.75s ease-out;
+}	
+
+.word-3{
+	
+	-webkit-animation: word-fade-1 2s ease-out;
+	-moz-animation: word-fade-1 2s ease-out;
+	-o-animation: word-fade-1 2s ease-out;
+	animation: word-fade-1 2s ease-out;
+}	
+
+/*H2 ANIMATION*/
+
+@-webkit-keyframes word-fade-1 {
+  0%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  50%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	top: 0; 
+  	opacity: 1;
+  }
+}
 
 
+/*ICON ANIMATION ALL*/
+
+@-webkit-keyframes icon-fade {
+  0%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  10%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	top: 0; 
+  	opacity: 1;
+  }
+}
+
+@-webkit-keyframes icon-fade {
+  0%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  5%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	top: 0; 
+  	opacity: 1;
+  }
+}
+
+@-moz-keyframes icon-fade {
+  0%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  5%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	top: 0; 
+  	opacity: 1;
+  }
+}
+
+@-o-keyframes icon-fade {
+  0%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  5%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	top: 0; 
+  	opacity: 1;
+  }
+}
+
+@keyframes icon-fade {
+  0%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  5%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	top: 0; 
+  	opacity: 1;
+  }
 }
 
