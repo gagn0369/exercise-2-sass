@@ -16,3 +16,98 @@
 		background-color: $hover-color;
 	}
 }
+
+@mixin icon-fade{
+
+	-webkit-animation: icon-fade 1s ease-out;
+	-moz-animation: icon-fade 1s ease-out;
+	-o-animation: icon-fade 1s ease-out;
+	animation: icon-fade 1s ease-out;
+
+	transition: all linear;
+
+	@-webkit-keyframes icon-fade {
+  0%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  10%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	top: 0; 
+  	opacity: 1;
+  }
+}
+
+@-webkit-keyframes icon-fade {
+  0%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  5%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	top: 0; 
+  	opacity: 1;
+  }
+}
+
+@-moz-keyframes icon-fade {
+  0%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  5%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	top: 0; 
+  	opacity: 1;
+  }
+}
+
+@-o-keyframes icon-fade {
+  0%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  5%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	top: 0; 
+  	opacity: 1;
+  }
+}
+
+@keyframes icon-fade {
+  0%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  5%   { 
+  	top: 15rem; 
+  	opacity: 0;
+  }
+
+  100% { 
+  	top: 0; 
+  	opacity: 1;
+  }
+}
+}

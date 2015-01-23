@@ -22,3 +22,44 @@ h2{
 	font-size: 1.5em;
 	position: relative;
 }
+
+.all-icons{
+	margin-top: 6em;
+	position: relative;
+	text-align: center;
+}
+
+.container{
+	display: inline-block;
+	text-align: center;
+	position: relative;
+}
+
+.icon-link{
+	color: $white;
+	position: relative;
+	text-align: center;
+	display: inline-block;
+	font-size: 6em;
+	color: white;
+	border: white solid 8px;
+	padding: 0.3em;
+	margin: 0.2em;
+
+	@include icon-fade
+}
+
+.container .icon-link:hover{
+	font-size: 6.5em;
+	padding: 0.2em;
+	transition: all linear;
+	background-color: rgba(118,244,232,0.25);
+
+}
+
+.container .icon-link:active{
+	top:0.1em;
+
+
+}
+
