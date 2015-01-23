@@ -13,7 +13,7 @@ SASS uses the '$' symbol to declare variables.*/
 /* line 3, /Users/madeleinegagne/Desktop/semester2/web dev/exercise-2-sass/scss/components/main */
 body {
   font-family: 'Cedarville Cursive', cursive;
-  background: url(../../img/sea.jpg) no-repeat center center fixed;
+  background: url(../../../img/sea.jpg) no-repeat center center fixed;
   background-size: cover; }
 
 /* line 12, /Users/madeleinegagne/Desktop/semester2/web dev/exercise-2-sass/scss/components/main */
